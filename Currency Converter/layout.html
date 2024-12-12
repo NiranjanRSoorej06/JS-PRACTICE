@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form class="form">
+            <div id="amount">
+                Enter Amount<br>
+                <input type="text" id="amount-box">
+            </div>
+            <div id="country">
+
+                <div id="from">
+                    <span>From</span>
+                    <div id="without-text">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from"></select>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <div id="to">
+                    <span>To</span>
+                    <div id="without-text">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to"></select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="msg">
+                1 USD = 80 INR
+            </div>
+            <div class="button-container">
+                <button id="btn">Get Exchange</button>
+            </div>
+            </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

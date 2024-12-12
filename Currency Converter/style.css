@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #f4e4ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.container{
+    border-radius: 20px;
+    padding:50px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height:450px;
+}
+
+#amount {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form{
+    margin-top : 50px;
+}
+
+#country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+#from , #to{
+    border:0.5px solid ;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    margin-top:25px;
+}
+
+#without-text{
+    display :flex;
+    align-items: center;
+    margin-top: none;
+}
+
+#amount input , select , #btn{
+    border:none;
+}
+
+select {
+    background-color: #ffffff;
+}
+
+#amount input {
+    border:0.5px solid ;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    font-size:20px;
+}
+
+i{
+    font-size:25px;
+}
+
+.msg{
+    border:0.5px solid ;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    color:#590925;
+    font-size:17px;
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#btn{
+    border:0.5px solid ;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #800000;
+    color:#ffffff;
+    font-size:30px;
+    font-style: italic;
+    margin-top:30px;
+    cursor: pointer;
+}
+

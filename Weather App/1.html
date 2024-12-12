@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body background="back.jpg">
+    <div class="body-container">
+        <div class="title">
+            <h2>Weather App</h2>
+        </div>
+
+        <form>
+            <div class="nav-bar"> 
+                <input type="text" id="place">
+                <i id="search" class="fa-solid fa-magnifying-glass" style="color: #000;"></i>
+            </div>   
+            <div class="icon">
+                <img src="clear.png" id="icon">
+                <span id="icon-name">Weather Conditions</span>
+            </div>
+            <div class="msg">
+                    <p id="temp">Temp</p>
+                    <p id="location">Place</p>
+
+                    <div class="windhumidity">
+                        <div id="humidity">
+                            <img src="humidity.png" height="100">
+                            <div id="fixed-wind">
+                                <span id="humidity-val"></span>
+                                <span id="hum">Humidity</span>
+                            </div>
+                        </div>
+
+                        <div id="wind">
+                            <img src="wind.png">
+                            <div id="fixed-hum">
+                                <div id="without-fixed-hum">
+                                    <span id="wind-val"></span>
+                                    <span id="wind-dir"></span>
+                                </div>
+                                <span id="win">Wind Speed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="extra">
+                        <div class="location">
+                            <div id="lat">
+                                <span id="lat-val">Latitude </span>
+                            </div>
+
+                            <div id="long">
+                                <span id="long-val">Longitude </span>
+                            </div>
+                        </div>
+
+                        <div class="datetime">
+                            <span id="date-time-words">Date and Time</span>
+                            <span id="date-time-val"></span>
+
+                        </div>
+                    </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

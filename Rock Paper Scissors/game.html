@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+        <div id="Rock" class="choice">
+            <img src="rock.png" height="100px">
+        </div>
+        <div id="Paper" class="choice">
+            <img  src="paper.png" height="100px">
+        </div>
+        <div id="Scissors" class="choice">
+            <img src="scissors.png" height="100px">
+        </div>
+    </div>
+
+<div id="align">
+    <div id="scoreboard">
+            <div class="score">
+               <p id="user-score">0</p> 
+               <p>You</p>                
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p> 
+                <p>Comp</p>                
+             </div>
+    </div>
+
+    <div id="msg">
+        Play Your Move
+    </div>
+</div>
+    <div id="group-my-rock" class="group-my-rock">
+        <img id="userrock" class="user"src="rock.png">
+        <p id="usertext">Your Choice</p>
+    </div>
+    <div id="group-my-paper" class="group-my-paper">
+        <img id="userpaper"class="user"src="paper.png">
+        <p id="usertext">Your Choice</p>
+    </div>
+    <div id="group-my-scissors" class="group-my-scissors">
+        <img id="userscissors"class="user"src="scissors.png">
+        <p id="usertext">Your Choice</p>
+    </div>
+
+
+    
+
+    <div id="group-comp-rock" class="group-comp-rock">
+        <img id="comprock" class="computer"src="rock.png">
+        <p id="comptext">Computer's Choice</p>
+    </div>
+    <div id="group-comp-paper" class="group-comp-paper">
+        <img id="comppaper"class="computer"src="paper.png">
+        <p id="comptext">Computer's Choice</p>
+    </div>
+    <div id="group-comp-scissors" class="group-comp-scissors">
+        <img id="compscissors"class="computer"src="scissors.png">
+        <p id="comptext">Computer's Choice</p>
+    </div>
+    <div id="continue">
+        <button id="btn">Continue</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

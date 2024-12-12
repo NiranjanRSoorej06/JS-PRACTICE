@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.body-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border:3px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    background-image: url("bg2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 580px;
+
+}
+
+.nav-bar{
+    display: flex;
+    justify-content:center;
+    gap:40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#place{
+    border-radius: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    border-style: inset;
+    padding:5px;
+    padding-left: 20px;
+}
+
+.title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: orange;
+}
+
+#search{
+    font-size: 15px;
+    border:2px solid white;
+    border-radius: 50%;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 15px;
+    background-color: #fff;
+}
+
+#search:hover{
+    opacity:0.7;
+}
+
+#icon  {
+    height: 190px;
+}
+
+.icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon-name{
+    font-size:30px;
+    color:aquamarine;
+    margin-bottom:20px;
+}
+.msg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#temp{
+    color: #FFC0CB;
+    font-size: 50px;
+}
+
+#location{
+    color: #FFC0CB;
+    font-size: 30px;
+}
+
+.windhumidity{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:100px;
+    margin-top:20px;
+}
+
+#humidity img,#wind img{
+    height: 50px;
+}
+
+#humidity,#wind{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+
+#humidity{
+    margin-left:30px;
+}
+#humidity-val,#wind-val{
+    color: #B5C7BE;
+    font-size: 20px;
+}
+
+#wind-dir{
+    color: #B5C7BE;
+    font-size: 25px;
+}
+
+#fixed-wind,#fixed-hum{
+    display:flex;
+    flex-direction: column;
+}
+
+#hum,#win{
+    font-size: 15;
+    color: #B5C7BE;
+}
+
+.location {
+    color: #FFFF00;
+    margin-top: 0;
+}
+
+.extra{
+    display:flex;
+    align-items: center;
+    gap:170px;
+    margin-top: 30px;
+}
+
+.datetime{
+    display: flex;
+    flex-direction: column;
+    color: #FFFF00;
+}
+
